@@ -5,8 +5,8 @@ This is the official website for Kerido, hosted on GitHub Pages.
 ## Pages
 
 - **Homepage** (`index.html`) - Main landing page
-- **Privacy Policy** (`privacy-policy.pdf`) - Privacy policy for app store submissions
-- **Terms of Service** (`terms-of-service.pdf`) - Terms of service for app store submissions
+- **Privacy Policy** (`privacy-policy.html`) - Privacy policy for app store submissions
+- **Terms of Service** (`terms-of-service.html`) - Terms of service for app store submissions
 - **Request Data Deletion** (`request-deletion.html`) - Page for users to request data deletion
 
 ## Setting Up GitHub Pages
@@ -118,16 +118,11 @@ Once DNS has propagated:
 
 ## Important Notes
 
-1. **Update Contact Information**: Make sure to replace `[Your Contact Email]` and `[Date]` placeholders in:
-   - `privacy-policy.html`
-   - `terms-of-service.html`
-   - `request-deletion.html`
+1. **Customize Content**: Review and customize the privacy policy and terms of service to match your app's actual data practices and legal requirements.
 
-2. **Customize Content**: Review and customize the privacy policy and terms of service to match your app's actual data practices and legal requirements.
+2. **HTTPS**: GitHub Pages automatically provides SSL certificates for custom domains. Make sure "Enforce HTTPS" is enabled in your repository settings.
 
-3. **HTTPS**: GitHub Pages automatically provides SSL certificates for custom domains. Make sure "Enforce HTTPS" is enabled in your repository settings.
-
-4. **Testing**: After setup, test all pages:
+3. **Testing**: After setup, test all pages:
    - `https://kerido.co`
    - `https://kerido.co/privacy-policy.html`
    - `https://kerido.co/terms-of-service.html`
